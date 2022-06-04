@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:id="@+id/bgcats"
+        android:layout_width="410dp"
+        android:layout_height="75dp"
+        android:background="@drawable/topui2"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="100dp"
+            android:layout_toEndOf="@+id/imageView13"
+            android:fontFamily="@font/brandon_grotesque_black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Detail Informasi"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/btn_back_from_detail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/green"
+            android:src="@drawable/ic_arrowback"
+            app:icon="@drawable/ic_arrowback"
+            app:iconTint="@color/black"
+            app:tint="#000000"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/foto"
+            android:layout_width="330dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            app:strokeColor="@color/black"
+            app:strokeWidth="2dp"
+            card_view:cardCornerRadius="20dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true"
+            app:cardBackgroundColor="#FFEA7B">>
+
+            <ImageView
+                android:id="@+id/gambar_detail"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                card_view:srcCompat="@drawable/ic_imageup" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            card_view:cardCornerRadius="38dp"
+            card_view:cardElevation="10dp"
+            card_view:cardUseCompatPadding="true"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/black">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="30dp">
+
+                <TextView
+                    android:id="@+id/kucing_detail"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Nama Kucing"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="230dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Pesan tambahan"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/jenis_detail"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Jenis Kucing"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/pesan_detail"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="255dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Isi pesan"
+                    android:textSize="15dp"/>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginStart="-10dp"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="1dp"
+                    card_view:cardCornerRadius="25dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true" >
+
+                    <TextView
+                        android:id="@+id/textdoang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Pemilik"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="25dp"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/nama_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Pemilik"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        />
+                    <TextView
+                        android:id="@+id/textnohp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HP :"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:id="@+id/no_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No. telp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="15dp"/>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="100dp"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="1dp"
+                    card_view:cardCornerRadius="25dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <TextView
+                        android:id="@+id/textview30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:text="Berat"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/berat_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Massa"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Kg"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="15dp">
+
+                    </TextView>
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:id="@+id/textviewaja1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Tanggal Penitipan"
+                    android:textStyle="bold"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textviewaja2"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="65dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Tanggal Pengembalian"
+                    android:textStyle="bold"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/titip_detail"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="85dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Tanggal Penitipan"
+                    android:textAlignment="center"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/kembali_detail"
+                    android:layout_marginStart="140dp"
+                    android:layout_marginTop="85dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Tanggal Pengembalian"
+                    android:textAlignment="center"
+                    android:textSize="15dp" />
+
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

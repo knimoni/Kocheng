@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Coding/Android Programming/kucingawall/app/src/main/res/drawable/shape_btn.xml" value="0.2025" />
+        <entry key="..\:/Coding/Android Programming/kucingawall/app/src/main/res/layout/activity_cats.xml" value="0.25" />
+        <entry key="..\:/Coding/Android Programming/kucingawall/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Coding/Android Programming/kucingawall/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Coding/Android Programming/kucingawall/app/src/main/res/layout/info.xml" value="0.22" />
+        <entry key="..\:/Coding/Android Programming/kucingawall/app/src/main/res/layout/mrazmi.xml" value="0.20260416666666667" />
+        <entry key="..\:/Coding/Android Programming/kucingawall/app/src/main/res/layout/yogas.xml" value="0.20260416666666667" />
+        <entry key="..\:/Coding/Android Programming/kucingawall/app/src/main/res/menu/bottom_menu.xml" value="0.5" />
+        <entry key="..\:/Kocheng/app/src/main/res/drawable/ic_menu.xml" value="0.128" />
+        <entry key="..\:/Kocheng/app/src/main/res/layout/activity_daftar.xml" value="0.264" />
+        <entry key="..\:/Kocheng/app/src/main/res/layout/activity_form.xml" value="0.25833333333333336" />
+        <entry key="..\:/Kocheng/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Kocheng/app/src/main/res/layout/activity_main.xml" value="0.20185185185185187" />
+        <entry key="..\:/Kocheng/app/src/main/res/layout/activity_regisact.xml" value="0.22291666666666668" />
+        <entry key="..\:/Kocheng/app/src/main/res/layout/activity_splashscreen.xml" value="0.25833333333333336" />
+        <entry key="..\:/Kocheng/app/src/main/res/menu/bottom_menu.xml" value="0.25833333333333336" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/activity_form.xml" value="0.20572916666666666" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/activity_loginact.xml" value="0.20572916666666666" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/activity_regisact.xml" value="0.18125" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/activity_splashscreen.xml" value="0.20572916666666666" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/aluey.xml" value="0.20572916666666666" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/hansap.xml" value="0.18125" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/info.xml" value="0.18125" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/mrazmi.xml" value="0.18125" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/naura.xml" value="0.18125" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/layout/yogas.xml" value="0.18125" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/menu/bottom_menu.xml" value="0.18125" />
+        <entry key="..\:/Kochengloginnotdb/app/src/main/res/menu/menu_main.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kocheng/app/src/main/res/drawable/ic_arrowback.xml" value="0.31" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kocheng/app/src/main/res/drawable/ic_attach_file.xml" value="0.268" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kocheng/app/src/main/res/layout/activity_form.xml" value="0.33" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kocheng/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kocheng/app/src/main/res/menu/bottom_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3725" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/drawable/ic_arrowback.xml" value="0.3725" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/drawable/ic_attach_file.xml" value="0.3725" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/drawable/ic_camera_alt.xml" value="0.3725" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/drawable/ic_info.xml" value="0.3725" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3725" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/drawable/pawbg.xml" value="0.3715" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/layout/activity_form.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/layout/activity_loginact.xml" value="0.33" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/layout/activity_regisact.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/layout/activity_splashscreen.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochenglogin/app/src/main/res/menu/bottom_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/layout/activity_form.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/layout/activity_loginact.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/layout/aluey.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/layout/hansap.xml" value="0.36615384615384616" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/layout/info.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/layout/mrazmi.xml" value="0.36615384615384616" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/layout/yogas.xml" value="0.371875" />
+        <entry key="..\:/Users/razmi/AndroidStudioProjects/Kochengloginnotdb/app/src/main/res/menu/bottom_menu.xml" value="0.371875" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_cats.xml" value="0.25833333333333336" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_cats2.xml" value="0.4" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_detail.xml" value="0.264" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_edit2.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_form.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_loginact.xml" value="0.264" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_main.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_regisact.xml" value="0.176" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/activity_splashscreen.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/aluey.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/hansap.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/info.xml" value="0.20863616930312098" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/mrazmi.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/naura.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/row_data.xml" value="0.21205643437366395" />
+        <entry key="..\:/kucingawall/app/src/main/res/layout/yogas.xml" value="0.21205643437366395" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
